@@ -1,13 +1,17 @@
-// Template literals (template strings, interpolação de strings)
-let username = "Ayres"
-let email = "ayres@email.com"
+// Number
+console.log(typeof 5)
 
-// Passar mais de um parâmetro.
-console.log(username, email)
+// Inteiro positivo
+console.log(5)
 
-// Concatenar texto.
-let message = "Olá, " + username + ". Você conectou com o e-mail " + email
-console.log(message)
+// Inteiro negativo
+console.log(-5)
 
-// Template literlas
-console.log(`Olá, ${username}. Você conectou com o e-mail ${email}`)
+// Número real ou float
+console.log(7.5)
+
+// NaN = Not a number
+console.log(12.5 / "ayres")
+
+// Infinity - Infinito
+console.log(1 / 0)
