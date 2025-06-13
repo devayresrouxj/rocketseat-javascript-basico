@@ -1,28 +1,15 @@
-let username = "Rodrigo"
-let userName = "João"
-
+// String
+let username = "Ayres"
 console.log(username)
-console.log(userName)
+console.log(typeof username)
 
-// Podemos
-let $email = "user@email.com"
-let _email = "joao@email.com"
-let user_email = "user@email.com"
-let Ação = "Cadastrar"
+// Quando usar aspas simples ou duplas?
+console.log('Uma string com "aspas duplas" dentro de simples.')
 
-console.log($email)
-console.log(_email)
-console.log(user_email)
-console.log(Ação)
+console.log("Uma string com 'aspas simples' dentro de duplas.")
 
-// Não podemos
-// let 1user = 'Ana'
-// let product name = 'Teclado'
-
-// Recomendações camelCase
-let productName = "Teclado"
-let firstName = "Ayres"
-
-// Recomendação snake_case
-let product_name = "Teclado"
-let first_name = "Ayres"
+// Com acento grave
+console.log(`
+  Uma string com acento grave permite
+  escrever múltiplas linhas.
+`)
