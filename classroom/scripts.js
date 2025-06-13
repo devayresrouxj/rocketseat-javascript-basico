@@ -1,13 +1,28 @@
-// Escopo global.
-let email = 'joao@email.com'
+let username = "Rodrigo"
+let userName = "João"
 
-{
-  // Escopo de bloco
-  console.log(email)
-}
+console.log(username)
+console.log(userName)
 
-{
-  let age = 18
-}
+// Podemos
+let $email = "user@email.com"
+let _email = "joao@email.com"
+let user_email = "user@email.com"
+let Ação = "Cadastrar"
 
-console.log(age) // gera erro pois age está em outro escopo
+console.log($email)
+console.log(_email)
+console.log(user_email)
+console.log(Ação)
+
+// Não podemos
+// let 1user = 'Ana'
+// let product name = 'Teclado'
+
+// Recomendações camelCase
+let productName = "Teclado"
+let firstName = "Ayres"
+
+// Recomendação snake_case
+let product_name = "Teclado"
+let first_name = "Ayres"
