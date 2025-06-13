@@ -1,7 +1,13 @@
-// Uma constante cria uma variável cujo o valor é fixo (não pode ser alterado).
-const number = 42
-console.log(number)
+// Escopo global.
+let email = 'joao@email.com'
 
-// Irá gerar um erro porque o valor não pode ser alterado.
-number = 55
-console.log(number)
+{
+  // Escopo de bloco
+  console.log(email)
+}
+
+{
+  let age = 18
+}
+
+console.log(age) // gera erro pois age está em outro escopo
