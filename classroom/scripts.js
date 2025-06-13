@@ -1,15 +1,13 @@
-// String
+// Template literals (template strings, interpolação de strings)
 let username = "Ayres"
-console.log(username)
-console.log(typeof username)
+let email = "ayres@email.com"
 
-// Quando usar aspas simples ou duplas?
-console.log('Uma string com "aspas duplas" dentro de simples.')
+// Passar mais de um parâmetro.
+console.log(username, email)
 
-console.log("Uma string com 'aspas simples' dentro de duplas.")
+// Concatenar texto.
+let message = "Olá, " + username + ". Você conectou com o e-mail " + email
+console.log(message)
 
-// Com acento grave
-console.log(`
-  Uma string com acento grave permite
-  escrever múltiplas linhas.
-`)
+// Template literlas
+console.log(`Olá, ${username}. Você conectou com o e-mail ${email}`)
